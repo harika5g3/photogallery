@@ -8,14 +8,7 @@ import 'firebase/compat/firestore';
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyAuxd8byszihNGZJzxPJBCTrZCoayzBB7w",
-  authDomain: "photo-32e2c.firebaseapp.com",
-  projectId: "photo-32e2c",
-  storageBucket: "photo-32e2c.appspot.com",
-  messagingSenderId: "1001251535019",
-  appId: "1:1001251535019:web:dddb80df807bf2cbd81fee"
-};
+
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 const projectStorage= firebase.storage();
